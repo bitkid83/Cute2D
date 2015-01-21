@@ -8,9 +8,8 @@
 int main(int argc, char *argv[])
 
 {
-	Game *g = new Game();
-	Game *foo = new Game();
-	foo->Init();
+	Game *g = new Game();	
+	
 	if (g->Init() == false) {
 		std::cout << "Error launching game!" << std::endl;
 	}
